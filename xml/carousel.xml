@@ -8,7 +8,7 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/carousel_control.js"></script>
-    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">    
     
 <style>
 
