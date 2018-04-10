@@ -2,7 +2,7 @@
 <Module>
   <ModulePrefs title="Carousel" /> 
   
-   <Content type="html" view="canvas">
+   <Content type="html" view="home">
 	 
 <![CDATA[ 
     <script src="../js/jquery.min.js"></script>
