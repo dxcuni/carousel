@@ -86,6 +86,11 @@ div {
 	font-family:'GT_Walsheim_Pro_Regular';
 }
 
+h2 {
+	font-family:'GT_Walsheim_Pro_Regular';
+}
+
+
 </style>
 
 
