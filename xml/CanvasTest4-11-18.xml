@@ -17,11 +17,20 @@
     
 <style>
 
+@font-face {
+font-family: 'GT_Walsheim_Pro_Regular';
+src: url('../fonts/GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
+src: url('../fonts/GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
+url('../fonts/GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../fonts/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
+
+
   .title {
   text-align: center;
   margin-top: 20px;
   padding: 10px;
-
+  font-family: 'GT_Walsheim_Pro_Regular';
   color: #FF0000;
   position: absolute;
 }
@@ -31,7 +40,7 @@
 
 .carousel-indicators.active{width:12px;height:12px;margin:0;background-color:#fff}
 
-.container{width:682px; margin:0 auto; padding-right:0px;padding-left:0px;}
+.container{font-family: 'GT_Walsheim_Pro_Regular'; width:682px; margin:0 auto; padding-right:0px;padding-left:0px;}
 
 
 
@@ -39,34 +48,31 @@
  /* unvisited link */
 a:link {
     color: white;
+    font-family:'GT_Walsheim_Pro_Regular';
 }
 
 /* visited link */
 a:visited {
     color: white;
+    font-family:'GT_Walsheim_Pro_Regular';
 }
 
 /* mouse over link */
 a:hover {
     color: white;
+    font-family:'GT_Walsheim_Pro_Regular';
 }
 
 /* selected link */
 a:active {
     color: white;
+    font-family:'GT_Walsheim_Pro_Regular';
 } 
 
 .clearfloat {
     clear: both;
 }
 
-@font-face {
-font-family: 'GT_Walsheim_Pro_Regular';
-src: url('../fonts/GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
-src: url('../fonts/GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-url('../fonts/GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
-url('../fonts/GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-url('../fonts/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
 
 
 .glyphicon{font-family:'GT_Walsheim_Pro_Regular';font-style:normal;font-size:14px;color:white}
@@ -128,8 +134,8 @@ h2 {
 	    <div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">     
 	       <p id="message-box">
 		   <span style="font-family:'GT_Walsheim_Pro_Regular'; font-size:18px; color:white;">Skills Management</span><br><br>
-		   <span style="font-family:'GT_Walsheim_Pro_Regular'; font-size:9px; color:white;">At DXC, your skills power our success!  Maintain your skills to raise your visibility for<br />new career opportunities and enable DXC to support clients with our best-available skilled talent.</span><br><br>
-		   <span style="font-family:'GT_Walsheim_Pro_Regular'; font-size:5px; color:white;"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/profile/plans/" title="Manage Skills" target="_blank">MANAGE YOUR SKILLS</a> &#40;<a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" title="Learn How to Manage Skills" target="_blank">LEARN MORE</a>&#41;</span><br>		   
+		   <span style="font-family:'GT_Walsheim_Pro_Regular'; font-size:12px; color:white;">At DXC, your skills power our success!  Maintain your skills to raise your visibility for<br />new career opportunities and enable DXC to support clients with our best-available skilled talent.</span><br><br>
+		   <span style="font-family:'GT_Walsheim_Pro_Regular'; font-size:11px; color:white;"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/profile/plans/" title="Manage Skills" target="_blank">MANAGE YOUR SKILLS</a> &#40;<a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" title="Learn How to Manage Skills" target="_blank">LEARN MORE</a>&#41;</span><br>		   
 	       </p>  
 	    </div>
 
