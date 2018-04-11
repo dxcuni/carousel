@@ -89,11 +89,17 @@ div {
 </style>
 
 
-    <div style="font-family:'GT_Walsheim_Pro_Regular';padding-top:0px;width:100%">
-  
-	<p style="font-family:'GT_Walsheim_Pro_Regular'; color:black;"><h2>Here are some of the most frequently asked<br />questions that employees have about DXC<br />University.</h2></p>
-
-    </div>  
+<div style="font-family:'GT_Walsheim_Pro_Regular';padding-top:0px;width:100%">
+<table style="width: 1100px; height: 110px; color: black; margin-left: 30px;" border="0">
+<tbody>
+<tr>
+<td colspan="4"><span style="font-family: 'GT_Walsheim_Pro_Regular'; font-size: 34pt; color: #000000;"><strong>DXC&nbsp;University</strong></span>
+<h2 style="font-family: 'GT_Walsheim_Pro_Regular'; font-size: 14pt; margin-bottom: 15px;"><span style="color: #000000;">Your site for accelerating learning, developing new competencies, and managing your skills at DXC Technology.</span></h2>
+</td>
+</tr>
+</tbody>
+</table>
+</div>  
 
 <div class="container">
 
