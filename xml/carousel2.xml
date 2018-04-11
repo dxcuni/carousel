@@ -30,13 +30,7 @@
 
 .container{width:682px; margin:0 auto; padding-right:0px;padding-left:0px;}
 
-#message-box {
-    border-radius: 0px 200px 200px 0px;
-    background: #000000;
-    padding: 20px; 
-    width: 300px;
-    height: 240px; 
-}
+
 
 
  /* unvisited link */
@@ -71,6 +65,16 @@ url('../fonts/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy
 .glyphicon{font-family:'GT_Walsheim_Pro_Regular';font-style:normal;font-size:14px;color:white}
 .carousel-control{font-family:'GT_Walsheim_Pro_Regular';font-style:normal;font-size:12px;color:white;opacity:1}
 
+#message-box {
+    border-radius: 0px 200px 200px 0px;
+    background: #000000;
+    padding: 20px; 
+    width: 300px;
+    height: 240px; 
+    font-family: 'GT_Walsheim_Pro_Regular';
+}
+
+
 div {
 	font-family:'GT_Walsheim_Pro_Regular';
 }
@@ -98,7 +102,7 @@ div {
         <div class="item active">
 	    <img src="../images/01.jpg" style="width:100%;height:320px;" alt="Skills Management" />
 	    <div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">     
-	       <p id="message-box">
+	       <p style="font-family:'GT_Walsheim_Pro_Regular';" id="message-box">
 		   <font size="4" style="color:white;">Skills Management</font><br><br>
 		   <font size="2" style="color:white;">At DXC, your skills power our success!  Maintain your skills to raise your visibility for<br />new career opportunities and enable DXC to support clients with our best-available skilled talent.</font><br><br>
 		   <span><font size="1.5" style="color:white;"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/profile/plans/" title="Manage Skills" target="_blank">MANAGE YOUR SKILLS</a> &#40;<a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" title="Learn How to Manage Skills" target="_blank">LEARN MORE</a>&#41;</font></span><br>		   
