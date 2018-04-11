@@ -99,7 +99,7 @@ h2 {
 <tbody>
 <tr>
 <td colspan="4"><span style="font-family: 'GT_Walsheim_Pro_Regular'; font-size: 34pt; color: #000000;"><strong>DXC&nbsp;University</strong></span>
-<h2 style="font-family: 'GT_Walsheim_Pro_Regular'; font-size: 14pt; margin-bottom: 15px;"><span style="color: #000000;">Your site for accelerating learning, developing new competencies, and managing your skills at DXC Technology.</span></h2>
+<h2 style="font-size: 12pt; margin-bottom: 15px;"><span style="font-family: 'GT_Walsheim_Pro_Regular'; color: #000000;">Your site for accelerating learning, developing new competencies, and managing your skills at DXC Technology.</span></h2>
 </td>
 </tr>
 </tbody>
@@ -126,11 +126,11 @@ h2 {
         <div class="item active">
 	    <img src="../images/01.jpg" style="width:100%;height:320px;" alt="Skills Management" />
 	    <div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">     
-	       <p style="font-family:'GT_Walsheim_Pro_Regular';" id="message-box">
-		   <font size="4" style="color:white;">Skills Management</font><br><br>
-		   <font size="2" style="color:white;">At DXC, your skills power our success!  Maintain your skills to raise your visibility for<br />new career opportunities and enable DXC to support clients with our best-available skilled talent.</font><br><br>
-		   <span><font size="1.5" style="color:white;"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/profile/plans/" title="Manage Skills" target="_blank">MANAGE YOUR SKILLS</a> &#40;<a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" title="Learn How to Manage Skills" target="_blank">LEARN MORE</a>&#41;</font></span><br>		   
-		   </p>  
+	       <p id="message-box">
+		   <span style="font-family:'GT_Walsheim_Pro_Regular'; font-size:18px; color:white;">Skills Management</span><br><br>
+		   <span style="font-family:'GT_Walsheim_Pro_Regular'; font-size:9px; color:white;">At DXC, your skills power our success!  Maintain your skills to raise your visibility for<br />new career opportunities and enable DXC to support clients with our best-available skilled talent.</span><br><br>
+		   <span style="font-family:'GT_Walsheim_Pro_Regular'; font-size:5px; color:white;"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/profile/plans/" title="Manage Skills" target="_blank">MANAGE YOUR SKILLS</a> &#40;<a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" title="Learn How to Manage Skills" target="_blank">LEARN MORE</a>&#41;</span><br>		   
+	       </p>  
 	    </div>
 
 	    <!--Render carousel controls--> 	  	  
