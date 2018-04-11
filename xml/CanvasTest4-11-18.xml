@@ -56,6 +56,10 @@ a:active {
     color: white;
 } 
 
+.clearfloat {
+    clear: both;
+}
+
 @font-face {
 font-family: 'GT_Walsheim_Pro_Regular';
 src: url('../fonts/GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
@@ -161,7 +165,7 @@ div {
 
     </div>
   </div>
-
+</div><br class="clearfloat"/>
 
     <div style="font-family:'GT_Walsheim_Pro_Regular';padding-top:0px;width:100%">
   
@@ -169,7 +173,7 @@ div {
 
     </div>  
 	
-</div>
+
 
 
   ]]>
