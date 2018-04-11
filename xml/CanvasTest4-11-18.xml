@@ -161,7 +161,7 @@ div {
 
     </div>
   </div>
-</div>
+
 
     <div style="font-family:'GT_Walsheim_Pro_Regular';padding-top:0px;width:100%">
   
@@ -169,6 +169,9 @@ div {
 
     </div>  
 	
+</div>
+
+
   ]]>
   </Content>
 </Module>
