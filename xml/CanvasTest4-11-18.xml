@@ -89,6 +89,12 @@ div {
 </style>
 
 
+    <div style="font-family:'GT_Walsheim_Pro_Regular';padding-top:0px;width:100%">
+  
+	<p style="font-family:'GT_Walsheim_Pro_Regular'; color:black;"><h2>Here are some of the most frequently asked<br />questions that employees have about DXC<br />University.</h2></p>
+
+    </div>  
+
 <div class="container">
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -167,11 +173,6 @@ div {
   </div>
 </div><br class="clearfloat"/>
 
-    <div style="font-family:'GT_Walsheim_Pro_Regular';padding-top:0px;width:100%">
-  
-	<p><h2 style="font-family:'GT_Walsheim_Pro_Regular'; color:black;">Here are some of the most frequently asked<br />questions that employees have about DXC<br />University.</h2></p>
-
-    </div>  
 	
 
 
