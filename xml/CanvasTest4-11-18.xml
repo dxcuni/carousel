@@ -9,36 +9,32 @@
 <Content type="html" view="home">
   <![CDATA[
 
-    <link rel="shortcut icon" href="../resource/images/DXC.ico" />
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/carousel_control.js"></script>
-	<link rel="stylesheet" href="https://rawgit.com/poc-org/carousel/master/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://rawgit.com/dxcuni/carousel/master/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     
- <style>
+<style>
 
-		.title {
-		text-align: center;
-		margin-top: 20px;
-		padding: 10px;
-		color: #FF0000;
-		position: absolute;
-		}
-    
+  .title {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+
+  color: #FF0000;
+  position: absolute;
+}
+
+
 .carousel-indicators{position:absolute;bottom:10px;left:50%;z-index:15;width:60%;padding-left:0;margin-left:-30%;text-align:center;list-style:none}.carousel-indicators li{display:inline-block;width:10px;height:10px;margin:1px;text-indent:-999px;cursor:pointer;background-color:#000\9;background-color:rgba(0,0,0,0);border:1px solid #fff;border-radius:10px}
 
 .carousel-indicators.active{width:12px;height:12px;margin:0;background-color:#fff}
 
 .container{width:682px; margin:0 auto; padding-right:0px;padding-left:0px;}
 
-#message-box {
-    border-radius: 0px 200px 200px 0px;
-    background: #000000;
-    padding: 20px; 
-    width: 300px;
-    height: 240px; 
-}
+
+
 
  /* unvisited link */
 a:link {
@@ -62,27 +58,34 @@ a:active {
 
 @font-face {
 font-family: 'GT_Walsheim_Pro_Regular';
-src: url('GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
-src: url('GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-url('GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
-url('GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
-
+src: url('../fonts/GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
+src: url('../fonts/GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
+url('../fonts/GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../fonts/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
 
 
 .glyphicon{font-family:'GT_Walsheim_Pro_Regular';font-style:normal;font-size:14px;color:white}
 .carousel-control{font-family:'GT_Walsheim_Pro_Regular';font-style:normal;font-size:12px;color:white;opacity:1}
 
+#message-box {
+    border-radius: 0px 200px 200px 0px;
+    background: #000000;
+    padding: 20px; 
+    width: 300px;
+    height: 240px; 
+    font-family: 'GT_Walsheim_Pro_Regular';
+}
 
-    </style>
 
-    <div style="font-family:'GT_Walsheim_Pro_Regular';padding-top:0px;width:100%">
-  
-	<p><h2 style="font-family:'GT_Walsheim_Pro_Regular'">Here are some of the most frequently asked<br />questions that employees have about DXC<br />University.</h2></p>
+div {
+	font-family:'GT_Walsheim_Pro_Regular';
+}
 
-    </div>  
-	
-	<div class="container">
+</style>
+
+
+<div class="container">
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	
@@ -102,9 +105,9 @@ url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
         <div class="item active">
 	    <img src="../images/01.jpg" style="width:100%;height:320px;" alt="Skills Management" />
 	    <div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">     
-	       <p id="message-box">
+	       <p style="font-family:'GT_Walsheim_Pro_Regular';" id="message-box">
 		   <font size="4" style="color:white;">Skills Management</font><br><br>
-		   <font size="2" style="color:white;">At DXC, your skills power our success!  Maintain your skills to raise your visibility for<br />new career opportunities and enable DXC to<br />support clients with our best-available skilled talent.</font><br><br>
+		   <font size="2" style="color:white;">At DXC, your skills power our success!  Maintain your skills to raise your visibility for<br />new career opportunities and enable DXC to support clients with our best-available skilled talent.</font><br><br>
 		   <span><font size="1.5" style="color:white;"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/profile/plans/" title="Manage Skills" target="_blank">MANAGE YOUR SKILLS</a> &#40;<a href="https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html" title="Learn How to Manage Skills" target="_blank">LEARN MORE</a>&#41;</font></span><br>		   
 		   </p>  
 	    </div>
@@ -132,9 +135,9 @@ url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
         <img src="../images/03.jpg" alt="image3" style="width:100%;height:320px;">
 	<div style="position:absolute;bottom:30px;left:30px;padding-left:0;clear:both">   
 	   <p id="message-box">
-	   <font size="4" style="color:white;">Global DXC Onboarding Process</font><br><br>
+	   <font size="4" style="color:white;">Global DXC Onboarding</font><br><br>
 	   <font size="2" style="color:white;">Onboarding employees across our global company and enhancing the new employee experience.</font><br><br>
-	   <font size="1.5" style="color:white;"><a href="https://my.dxc.com/onboarding" target="_blank">ACCESS ONBOARDING</a></font><br/>		   
+	   <font size="1.5" style="color:white;"><a href="https://my.dxc.com/onboarding" title="Access Global DXC Onboarding" target="_blank">ACCESS ONBOARDING</a></font><br/>		   
 	   </p>
 	</div>
 	
@@ -148,7 +151,7 @@ url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
 	   <p id="message-box">
 	   <font size="4" style="color:white;">DevOps Badges</font><br><br>
 	   <font size="2" style="color:white;">A fun way of learning using badges and gamification!</font><br><br>
-	   <font size="1.5" style="color:white;"><a href="https://my.dxc.com/content/dam/private/employee_resources/dxc-workplace/DXC_Workplace_Employee_message.pdf" target="_blank">READ MORE</a></font><br/>		      
+	   <font size="1.5" style="color:white;"><a href="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/learningeventdetail/curra000000000003521" target="_blank">READ MORE</a></font><br/>		      
 	   </p>
         </div>
 
@@ -159,8 +162,13 @@ url('GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
     </div>
   </div>
 </div>
-    
 
+    <div style="font-family:'GT_Walsheim_Pro_Regular';padding-top:0px;width:100%">
+  
+	<p><h2 style="font-family:'GT_Walsheim_Pro_Regular'">Here are some of the most frequently asked<br />questions that employees have about DXC<br />University.</h2></p>
+
+    </div>  
+	
   ]]>
   </Content>
 </Module>
